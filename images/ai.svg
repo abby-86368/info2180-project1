@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="100%" height="100%">
+  <!-- Ground base -->
+  <ellipse cx="160" cy="215" rx="140" ry="14" fill="#EDF2F7"/>
+  <!-- Doctor / Scientist Figure (Left) -->
+  <ellipse cx="90" cy="210" rx="30" ry="8" fill="#CBD5E0"/>
+  <!-- Legs -->
+  <path d="M 80 150 L 78 210 L 88 210 L 90 150 Z" fill="#2B6CB0"/>
+  <path d="M 94 150 L 96 210 L 106 210 L 102 150 Z" fill="#2C5282"/>
+  <!-- Lab Coat / Torso -->
+  <path d="M 72 90 L 112 90 L 118 160 L 68 160 Z" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="2"/>
+  <path d="M 84 90 L 100 90 L 98 120 L 86 120 Z" fill="#319795"/>
+  <!-- Stethoscope -->
+  <path d="M 86 98 C 86 115, 98 115, 98 98" fill="none" stroke="#4A5568" stroke-width="2.5"/>
+  <!-- Arms gesturing to AI -->
+  <path d="M 112 98 L 132 118 L 128 126 L 108 106 Z" fill="#FFFFFF" stroke="#CBD5E0"/>
+  <circle cx="134" cy="122" r="5" fill="#FBD38D"/>
+  <!-- Head & Hair -->
+  <ellipse cx="92" cy="72" rx="13" ry="16" fill="#FBD38D"/>
+  <path d="M 78 70 C 78 52, 106 52, 106 70 C 104 60, 94 56, 78 70 Z" fill="#2D3748"/>
+  
+  <!-- AI / Medical Robot (Right) -->
+  <ellipse cx="225" cy="210" rx="40" ry="10" fill="#CBD5E0"/>
+  <!-- Hover Base -->
+  <ellipse cx="225" cy="195" rx="30" ry="10" fill="#E2E8F0" stroke="#CBD5E0" stroke-width="2"/>
+  <ellipse cx="225" cy="190" rx="20" ry="6" fill="#63B3ED" opacity="0.6"/>
+  <!-- Robot Body -->
+  <rect x="200" y="115" width="50" height="65" rx="20" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="2"/>
+  <!-- Robot Chest Screen -->
+  <rect x="210" y="130" width="30" height="24" rx="4" fill="#2D3748"/>
+  <!-- ECG pulse on chest -->
+  <path d="M 213 142 L 219 142 L 222 135 L 225 148 L 228 138 L 231 142 L 237 142" fill="none" stroke="#48BB78" stroke-width="2"/>
+  <!-- Robot Head -->
+  <rect x="205" y="65" width="40" height="36" rx="12" fill="#FFFFFF" stroke="#CBD5E0" stroke-width="2"/>
+  <!-- Face Visor -->
+  <rect x="212" y="73" width="26" height="15" rx="6" fill="#3182CE"/>
+  <circle cx="220" cy="80" r="3" fill="#63B3ED"/>
+  <circle cx="230" cy="80" r="3" fill="#63B3ED"/>
+  <!-- Antenna -->
+  <line x1="225" y1="65" x2="225" y2="52" stroke="#CBD5E0" stroke-width="3"/>
+  <circle cx="225" cy="50" r="5" fill="#48BB78"/>
+  <!-- Data Connection Beam -->
+  <path d="M 138 120 C 165 110, 175 130, 200 125" fill="none" stroke="#4FD1C5" stroke-dasharray="4,4" stroke-width="2"/>
+</svg>

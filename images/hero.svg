@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="body-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FC8181"/>
+      <stop offset="100%" stop-color="#E53E3E"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Glow & Mat -->
+  <ellipse cx="250" cy="330" rx="190" ry="22" fill="#CBD5E0" opacity="0.6"/>
+  <ellipse cx="250" cy="325" rx="160" ry="16" fill="#319795" opacity="0.9"/>
+  <!-- Floating wellness leaves & dots -->
+  <path d="M 100 240 C 90 200, 130 180, 120 220 C 110 240, 100 240, 100 240 Z" fill="#48BB78" opacity="0.8"/>
+  <path d="M 380 220 C 400 180, 360 170, 370 210 C 375 230, 380 220, 380 220 Z" fill="#38A169" opacity="0.8"/>
+  <circle cx="140" cy="150" r="8" fill="#F6AD55" opacity="0.7"/>
+  <circle cx="360" cy="140" r="6" fill="#63B3ED" opacity="0.7"/>
+  <circle cx="250" cy="80" r="10" fill="#F6E05E" opacity="0.6"/>
+  <!-- Meditation Figure -->
+  <path d="M 160 315 C 190 280, 310 280, 340 315 C 310 335, 190 335, 160 315 Z" fill="#2C5282"/>
+  <ellipse cx="190" cy="310" rx="35" ry="18" fill="#2B6CB0"/>
+  <ellipse cx="310" cy="310" rx="35" ry="18" fill="#2B6CB0"/>
+  <!-- Torso -->
+  <path d="M 225 210 L 275 210 L 285 295 L 215 295 Z" fill="url(#body-grad)"/>
+  <!-- Arms & Hands in Gyan Mudra -->
+  <path d="M 225 215 C 190 230, 180 270, 195 295 C 200 300, 210 295, 205 285 C 195 265, 205 240, 230 230 Z" fill="#FC8181"/>
+  <path d="M 275 215 C 310 230, 320 270, 305 295 C 300 300, 290 295, 295 285 C 305 265, 295 240, 270 230 Z" fill="#FC8181"/>
+  <circle cx="195" cy="295" r="9" fill="#FBD38D"/>
+  <circle cx="305" cy="295" r="9" fill="#FBD38D"/>
+  <!-- Neck & Head -->
+  <rect x="244" y="190" width="12" height="22" rx="4" fill="#FBD38D"/>
+  <ellipse cx="250" cy="165" rx="20" ry="25" fill="#FBD38D"/>
+  <!-- Hair bun -->
+  <path d="M 230 165 C 230 140, 270 140, 270 165 C 270 150, 265 145, 250 145 C 235 145, 230 150, 230 165 Z" fill="#4A5568"/>
+  <circle cx="250" cy="138" r="14" fill="#4A5568"/>
+  <!-- Calm closed eyes & smile -->
+  <path d="M 242 165 Q 246 168 250 165" stroke="#744210" stroke-width="2" fill="none"/>
+  <path d="M 252 165 Q 256 168 260 165" stroke="#744210" stroke-width="2" fill="none"/>
+  <path d="M 247 175 Q 250 178 253 175" stroke="#744210" stroke-width="1.5" fill="none"/>
+</svg>

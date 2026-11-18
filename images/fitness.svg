@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="100%" height="100%">
+  <!-- Ground base -->
+  <ellipse cx="160" cy="215" rx="140" ry="14" fill="#EDF2F7"/>
+  <!-- Central Smartphone Device -->
+  <rect x="110" y="25" width="100" height="175" rx="16" fill="#2D3748" stroke="#1A202C" stroke-width="4"/>
+  <!-- Screen -->
+  <rect x="116" y="38" width="88" height="150" rx="8" fill="#FFFFFF"/>
+  <!-- Phone speaker bar -->
+  <rect x="145" y="31" width="30" height="3" rx="1.5" fill="#718096"/>
+  <!-- App Header -->
+  <rect x="116" y="38" width="88" height="24" rx="4" fill="#48BB78"/>
+  <circle cx="128" cy="50" r="4" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="138" y="48" width="35" height="4" rx="2" fill="#FFFFFF"/>
+  <!-- Heart Rate Icon & Stats -->
+  <path d="M 160 82 C 160 76, 150 72, 146 78 C 142 72, 132 76, 132 82 C 132 90, 146 98, 146 98 C 146 98, 160 90, 160 82 Z" fill="#E53E3E"/>
+  <text x="166" y="90" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold" fill="#2D3748">124</text>
+  <text x="166" y="100" font-family="-apple-system, sans-serif" font-size="8" fill="#718096">bpm</text>
+  <!-- Running Figure on Phone Screen -->
+  <circle cx="152" cy="116" r="6" fill="#3182CE"/>
+  <path d="M 152 122 L 150 142 L 140 156 L 134 154" fill="none" stroke="#3182CE" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 150 134 L 160 144 L 166 142" fill="none" stroke="#2B6CB0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 152 126 L 142 134 L 136 130" fill="none" stroke="#3182CE" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 152 126 L 162 132 L 168 126" fill="none" stroke="#3182CE" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Circular Progress Ring on phone -->
+  <circle cx="160" cy="172" r="10" fill="none" stroke="#E2E8F0" stroke-width="3"/>
+  <circle cx="160" cy="172" r="10" fill="none" stroke="#48BB78" stroke-width="3" stroke-dasharray="45, 100"/>
+  <!-- Floating Elements around phone -->
+  <circle cx="70" cy="90" r="14" fill="#EBF8FF"/>
+  <path d="M 64 90 L 70 82 L 76 96" fill="none" stroke="#3182CE" stroke-width="2"/>
+  <circle cx="250" cy="130" r="18" fill="#FEFCBF"/>
+  <text x="242" y="135" font-family="-apple-system, sans-serif" font-size="14" fill="#D69E2E">⚡</text>
+</svg>
